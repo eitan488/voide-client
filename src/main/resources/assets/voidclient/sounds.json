@@ -1,0 +1,92 @@
+{
+  "ui_open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:ui_open",
+        "stream": false
+      }
+    ]
+  },
+  "ui_close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:ui_close",
+        "stream": false
+      }
+    ]
+  },
+  "ui_click": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:ui_click",
+        "stream": false
+      }
+    ]
+  },
+  "module_on": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:module_on",
+        "stream": false
+      }
+    ]
+  },
+  "module_off": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:module_off",
+        "stream": false
+      }
+    ]
+  },
+  "notification": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:notification",
+        "stream": false
+      }
+    ]
+  },
+  "category_switch": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:category_switch",
+        "stream": false
+      }
+    ]
+  },
+  "training_hit": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:training_hit",
+        "stream": false
+      }
+    ]
+  },
+  "training_miss": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:training_miss",
+        "stream": false
+      }
+    ]
+  },
+  "warning": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "voidclient:warning",
+        "stream": false
+      }
+    ]
+  }
+}

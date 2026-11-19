@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "name": "Base Inspection",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Chunk Intelligence": {
+      "enabled": true
+    },
+    "Chunk Inspection ESP": {
+      "enabled": true
+    },
+    "Storage ESP": {
+      "enabled": true
+    },
+    "Minimap": {
+      "enabled": true
+    },
+    "Waypoints": {
+      "enabled": true
+    },
+    "Waypoint Beams": {
+      "enabled": true
+    },
+    "Chunk Visualizer": {
+      "enabled": true
+    },
+    "Fullbright": {
+      "enabled": true
+    },
+    "Direction HUD": {
+      "enabled": true
+    },
+    "Biome HUD": {
+      "enabled": true
+    },
+    "Inspection Profiles": {
+      "settings": {
+        "Active Profile": "General Structure Inspection"
+      }
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "Galaxy"
+      }
+    }
+  }
+}

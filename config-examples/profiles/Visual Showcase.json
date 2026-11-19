@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "name": "Visual Showcase",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Bloom": {
+      "enabled": true
+    },
+    "Color Grading": {
+      "enabled": true,
+      "settings": {
+        "Preset": "Cyberpunk"
+      }
+    },
+    "Vignette": {
+      "enabled": true
+    },
+    "Film Grain": {
+      "enabled": true
+    },
+    "Ambient Particles": {
+      "enabled": true
+    },
+    "Trail Effects": {
+      "enabled": true
+    },
+    "Cosmetic Aura": {
+      "enabled": true
+    },
+    "Player Model Cosmetics": {
+      "enabled": true
+    },
+    "Custom Sky": {
+      "enabled": true
+    },
+    "Block Overlay": {
+      "enabled": true
+    },
+    "Item Physics": {
+      "enabled": true
+    },
+    "Custom Crosshair": {
+      "enabled": true
+    },
+    "Hit Particles": {
+      "enabled": true
+    },
+    "Damage Overlay": {
+      "enabled": true
+    },
+    "Ambient Atmosphere": {
+      "enabled": true
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "Cyberpunk",
+        "Glow Strength": 1.4
+      }
+    }
+  }
+}

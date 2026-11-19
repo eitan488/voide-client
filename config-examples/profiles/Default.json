@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "name": "Default",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Keystrokes": {
+      "enabled": true
+    },
+    "CPS Counter": {
+      "enabled": true
+    },
+    "Potion HUD": {
+      "enabled": true
+    },
+    "Armor HUD": {
+      "enabled": true
+    },
+    "Minimap": {
+      "enabled": true
+    },
+    "Waypoints": {
+      "enabled": true
+    },
+    "Block Overlay": {
+      "enabled": true
+    },
+    "Zoom Visuals": {
+      "enabled": true
+    },
+    "Chat Timestamps": {
+      "enabled": true
+    },
+    "Chat Customizer": {
+      "enabled": true
+    }
+  }
+}

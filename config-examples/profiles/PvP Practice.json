@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "name": "PvP Practice",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Keystrokes": {
+      "enabled": true
+    },
+    "CPS Counter": {
+      "enabled": true
+    },
+    "Target HUD": {
+      "enabled": true
+    },
+    "Armor HUD": {
+      "enabled": true
+    },
+    "Crosshair": {
+      "enabled": true
+    },
+    "Combat Information": {
+      "enabled": true
+    },
+    "Attack Statistics": {
+      "enabled": true
+    },
+    "Potion HUD": {
+      "enabled": true
+    },
+    "Totem Counter": {
+      "enabled": true
+    },
+    "Hit Color": {
+      "enabled": true
+    },
+    "Damage Indicator": {
+      "enabled": true
+    },
+    "Camera Effects": {
+      "enabled": true
+    },
+    "Combat Session Timer": {
+      "enabled": true
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "AMOLED"
+      }
+    }
+  }
+}

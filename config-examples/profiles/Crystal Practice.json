@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "name": "Crystal Practice",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Crystal PvP HUD": {
+      "enabled": true
+    },
+    "Crystal Information": {
+      "enabled": true
+    },
+    "Crystal Combat Visuals": {
+      "enabled": true
+    },
+    "Explosion Visualizer": {
+      "enabled": true
+    },
+    "Totem Counter": {
+      "enabled": true
+    },
+    "Target HUD": {
+      "enabled": true
+    },
+    "Training Notifications": {
+      "enabled": true
+    },
+    "Armor Durability Warning": {
+      "enabled": true
+    },
+    "Keystrokes": {
+      "enabled": true,
+      "settings": {
+        "Position": {
+          "x": 0.22,
+          "y": 0.085
+        }
+      }
+    },
+    "CPS Counter": {
+      "enabled": true
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "Plasma"
+      }
+    }
+  }
+}

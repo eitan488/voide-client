@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "name": "Performance",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Ping Display": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Particle Control": {
+      "enabled": true
+    },
+    "Custom Particle Quality": {
+      "enabled": true,
+      "settings": {
+        "Block Break Density": 15.0,
+        "Vanilla Density": 30.0
+      }
+    },
+    "Entity Rendering": {
+      "enabled": true
+    },
+    "Dynamic Resolution": {
+      "enabled": true
+    },
+    "Performance Monitor": {
+      "enabled": true,
+      "settings": {
+        "Position": {
+          "x": 0.005,
+          "y": 0.26
+        }
+      }
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "Minimal",
+        "Glow Strength": 0.4
+      }
+    }
+  }
+}

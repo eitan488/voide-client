@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "name": "Anchor Practice",
+  "modules": {
+    "Watermark": {
+      "enabled": true
+    },
+    "Module List": {
+      "enabled": true
+    },
+    "FPS HUD": {
+      "enabled": true
+    },
+    "Coordinates": {
+      "enabled": true
+    },
+    "Notification System": {
+      "enabled": true
+    },
+    "Sprint": {
+      "enabled": true
+    },
+    "Anchor HUD": {
+      "enabled": true
+    },
+    "Anchor Visualizer": {
+      "enabled": true
+    },
+    "Totem Counter": {
+      "enabled": true
+    },
+    "Target HUD": {
+      "enabled": true
+    },
+    "Training Notifications": {
+      "enabled": true
+    },
+    "Armor Durability Warning": {
+      "enabled": true
+    },
+    "Item Counter": {
+      "enabled": true,
+      "settings": {
+        "Layout": "Horizontal",
+        "Position": {
+          "x": 0.36,
+          "y": 0.005
+        }
+      }
+    },
+    "Theme Engine": {
+      "settings": {
+        "Theme": "Plasma"
+      }
+    }
+  }
+}

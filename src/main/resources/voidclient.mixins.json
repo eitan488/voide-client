@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "voidclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "ChatHudAccessor",
+    "ChatHudMixin",
+    "ClientConnectionMixin",
+    "EntityMixin",
+    "EntityRenderManagerMixin",
+    "EntityRendererMixin",
+    "EnvironmentAttributeInterpolatorMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "InputAccessor",
+    "ItemEntityRenderStateMixin",
+    "ItemEntityRendererMixin",
+    "KeyboardInputMixin",
+    "KeyboardMixin",
+    "LightmapTextureManagerMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "MultiplayerScreenMixin",
+    "OverlayTextureAccessor",
+    "ParticleManagerMixin",
+    "PlayerEntityMixin",
+    "SplashOverlayMixin",
+    "WorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

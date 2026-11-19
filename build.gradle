@@ -1,0 +1,82 @@
+plugins {
+    id 'fabric-loom' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    inputs.property "loader_version", project.loader_version
+    filteringCharset "UTF-8"
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version,
+                "minecraft_version": project.minecraft_version,
+                "loader_version": project.loader_version
+    }
+}
+
+def targetJavaVersion = 21
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release.set(targetJavaVersion)
+}
+
+java {
+    withSourcesJar()
+    toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+    inputs.property "archivesName", project.base.archivesName
+    from("LICENSE") {
+        rename { "${it}_${inputs.properties.archivesName}" }
+    }
+}
+
+loom {
+    runs {
+        // Development smoke test: drives menus, creates a world, enables all modules and
+        // writes screenshots + run/voidclient-selftest.txt, then quits.
+        selftest {
+            client()
+            name "Void Self Test"
+            vmArg "-Dvoidclient.selftest=true"
+            programArgs "--width", "1920", "--height", "1080"
+            runDir "run"
+        }
+    }
+}
+
+// Production-style smoke test: boots the remapped release JAR (intermediary names, real Fabric
+// Loader + Fabric API jars) the way a launcher would, then runs the in-game self test.
+configurations.productionRuntimeMods.transitive = false
+dependencies {
+    productionRuntimeMods "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+tasks.register("prodSelftest", net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    jvmArgs.add("-Dvoidclient.selftest=true")
+    programArgs.addAll("--width", "1920", "--height", "1080")
+    useXVFB = false
+    runDir = project.layout.projectDirectory.dir("run-prod")
+}
